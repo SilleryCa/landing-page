@@ -1,0 +1,13 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    max-height: 35px;
+    width: auto;
+}

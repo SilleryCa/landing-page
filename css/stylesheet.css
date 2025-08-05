@@ -103,6 +103,11 @@ button {
     margin-bottom: 50px;
 }
 
+.content {
+    width: 180px;
+    text-align: center;
+}
+
 .content img {
     width: 180px;
     height: 180px;
@@ -113,13 +118,54 @@ button {
 .content-container {
     display: flex;
     gap: 80px;
+    margin-bottom: 150px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
 
+.quote h4 {
+    font-size: 34px;
+    font-weight: 100;
+    font-style: italic;
+}
 
+.quote p {
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+}
 
+.sign-up {
+    background-color: #3882f6;
+    margin: 150px;
+    border-radius: 15px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
 
+.sign-up h4 {
+    font-size: 22px;
+}
 
+.left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-up button {
+    border: 1px #F9FAF8 solid;
+    align-self: center;
+}
 
 .footer {
     background-color: #1F2937;
